@@ -1,0 +1,13 @@
+AXITDC
+  axi_gpio_0
+  axi_bram_ctrl_0
+  blk_mem_gen_0
+  TDCchannel
+    delayLine
+      risingEdgeDetector
+    encoder
+      adderTreeLegacy
+        ...
+    counter
+    control
+  sync
