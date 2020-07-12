@@ -35,3 +35,6 @@ MyPkg.vhd -> contains some useful functions
 TDCServer2.c: Linux-based C program for the Zynq ARM core. Communicates with the TDC channels via "mmap" system call. Addresses are set in the Addres Editor of the TDCsystem project.\
 PLclock script: Contains bash commands for lowering the PL clock frequency from 125 to 100 MHz. Has to be executed before TDC implementation.\
 TDCgui3.mlapp: MATLAB App Designer graphical user interface application
+
+*figs*\
+Various figures and schematics of the TDC design, ordered hierarchically from the system down to individual component level.
