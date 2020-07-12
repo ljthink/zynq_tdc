@@ -1,2 +1,2 @@
-# ZYNQ_Time-to-digital converter
+# ZYNQ Time-to-digital converter
 High-resolution time-to-digital converter in the Red Pitaya Zynq-7010 SoC
