@@ -40,3 +40,6 @@ TDCgui3.mlapp: MATLAB App Designer graphical user interface application
 
 *figs*\
 Various figures and schematics of the TDC design, ordered hierarchically from the system down to individual component level.
+
+**Links**
+IEEE paper: https://ieeexplore.ieee.org/abstract/document/8904850
