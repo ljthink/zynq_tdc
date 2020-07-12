@@ -14,19 +14,19 @@ Max speed: ~70 MS/s
 
 **FILES**
 
-*TDC*
-Main project, containing the design of an AXI TDC core. Uses VHDL source files and 3 Vivado-configured Xilinx IPs (BRAM, BRAM Controller, AXI GPIO).
+*TDC*\
+Main project, containing the design of an AXI TDC core. Uses VHDL source files and 3 Vivado-configured Xilinx IPs (BRAM, BRAM Controller, AXI GPIO).\
 Requires "MyPkg.vhd" to be included.
 
-*AXITDC_v2_IP*
-Vivado-created temporary project, used for packaging the TDC_v2 into an IP core.
+*AXI_TDC_IP*\
+Vivado-created temporary project, used for packaging the TDC into an IP core.
 
-*TDCsystem*
-Top level block design containing the Zynq PS and multiple TDC cores.
-Clocking: AXI interconnect expects 100 MHz. This is raised by MMCME to 350 MHz for the TDC cores.
-External ports: hit signal for each TDC channel.
-Module "testUnit" is a square wave generator for testing and can be removed.
-11-bit "trigger" signals on TDC channel IPs are optional and can be left unconnected. Used for inter-channel (START-STOP) measurements.
+*TDCsystem*\
+Top level block design containing the Zynq PS and multiple TDC cores.\
+Clocking: AXI interconnect expects 100 MHz. This is raised by MMCME to 350 MHz for the TDC cores.\
+External ports: hit signal for each TDC channel.\
+Module "testUnit" is a square wave generator for testing and can be removed.\
+11-bit "trigger" signals on TDC channel IPs are optional and can be left unconnected. Used for inter-channel (START-STOP) measurements.\
 A TDC channel core has a generic number of taps in the delay line, which must be a multiple of 12. Default is 192.
 
 **EXTRA**
