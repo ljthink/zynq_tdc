@@ -1,7 +1,7 @@
 # ZYNQ Time-to-digital converter
-Author: Michel Adamic ada.mic94@gmail.com
-
 High-resolution time-to-digital converter in the Red Pitaya Zynq-7010 SoC
+
+Author: Michel Adamic ada.mic94@gmail.com
 
 **Performance**\
 Core frequency: 350 MHz\
