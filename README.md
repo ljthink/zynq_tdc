@@ -14,8 +14,8 @@ Max speed: ~70 MS/s
 
 **FILES**
 
-*TDC_v2*
-The main project, containing the design of an AXI TDC core. Uses VHDL source files and 3 Vivado-configured Xilinx IPs (BRAM, BRAM Controller, AXI GPIO).
+*TDC*
+Main project, containing the design of an AXI TDC core. Uses VHDL source files and 3 Vivado-configured Xilinx IPs (BRAM, BRAM Controller, AXI GPIO).
 Requires "MyPkg.vhd" to be included.
 
 *AXITDC_v2_IP*
