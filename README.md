@@ -1,8 +1,8 @@
 # ZYNQ Time-to-digital converter
 High-resolution time-to-digital converter in the Red Pitaya Zynq-7010 SoC
 
-**Performance**
-Core frequency: 350 MHz
+**Performance**\\
+Core frequency: 350 MHz\\
 No. of delay line taps: 192 (configurable)
 Time resolution per channel: >11 ps
 Accuracy: <10 ppm
